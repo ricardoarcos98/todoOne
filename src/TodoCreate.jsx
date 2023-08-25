@@ -12,12 +12,12 @@ const TodoCreate =({creatTodo})=>{
         setTitle('');
     }
     return(
-        <form onSubmit={handleSubmitAddTodo} className="bg-white rounded-md overflow-hidden py-4 px-4 gap-4 items-center flex mt-8">
+        <form onSubmit={handleSubmitAddTodo} className="bg-white rounded-md overflow-hidden py-4 px-4 gap-4 items-center flex mt-8 dark:bg-gray-800">
         <span className="rounded-full h-5 w-5 border-2 inline-block"></span>
         <input
             type="text"
             placeholder="Create a New Todo..."
-            className="w-full text-gray-400 outline-none"
+            className="w-full text-gray-400 outline-none dark:bg-gray-800"
             value={title}
             onChange={(e)=>setTitle(e.target.value)}
         />
