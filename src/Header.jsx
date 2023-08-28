@@ -8,7 +8,7 @@ return(
                         ToDo
                     </h1>
                     <button>
-                        <NightIcon className="fill-white" />
+                        <NightIcon />
                     </button>
                 </div>
 
